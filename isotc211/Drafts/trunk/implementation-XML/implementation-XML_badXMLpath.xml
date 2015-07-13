@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<XMI xmi.version="1.1" xmlns:UML="omg.org/UML1.3">
+	<XMI.header>
+		<XMI.documentation>
+			<XMI.exporter>Enterprise Architect</XMI.exporter>
+			<XMI.exporterVersion>2.5</XMI.exporterVersion>
+		</XMI.documentation>
+	</XMI.header>
+	<XMI.content>
+		<UML:Model name="EA Model" xmi.id="MX_EAID_A6AEEF28_5309_41bc_8024_9634FFD7CC7E">
+			<UML:Namespace.ownedElement>
+				<UML:Class name="EARootClass" xmi.id="EAID_11111111_5487_4080_A7F4_41526CB0AA00" isRoot="true" isLeaf="false" isAbstract="false"/>
+				<UML:Package name="implementation-XML" xmi.id="EAPK_A6AEEF28_5309_41bc_8024_9634FFD7CC7E" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+					<UML:ModelElement.taggedValue>
+						<UML:TaggedValue tag="parent" value="EAPK_32746297_9FEF_43c0_8DC7_CBE0F73FD23B"/>
+						<UML:TaggedValue tag="ea_package_id" value="10"/>
+						<UML:TaggedValue tag="created" value="2014-07-10 00:00:00"/>
+						<UML:TaggedValue tag="modified" value="2014-07-10 00:00:00"/>
+						<UML:TaggedValue tag="iscontrolled" value="TRUE"/>
+						<UML:TaggedValue tag="xmlpath" value="implementation-XML.xml"/>
+						<UML:TaggedValue tag="lastloaddate" value="2014-07-16 22:55:32"/>
+						<UML:TaggedValue tag="lastsavedate" value="2014-07-11 07:35:39"/>
+						<UML:TaggedValue tag="version" value="1.0"/>
+						<UML:TaggedValue tag="isprotected" value="FALSE"/>
+						<UML:TaggedValue tag="usedtd" value="FALSE"/>
+						<UML:TaggedValue tag="xmiver" value="Enterprise Architect XMI/UML 1.3"/>
+						<UML:TaggedValue tag="logxml" value="FALSE"/>
+						<UML:TaggedValue tag="tpos" value="0"/>
+						<UML:TaggedValue tag="packageFlags" value="isModel=1;VICON=3;Recurse=0;VCCFG=implementation-XML;CRC=0;"/>
+						<UML:TaggedValue tag="batchsave" value="0"/>
+						<UML:TaggedValue tag="batchload" value="0"/>
+						<UML:TaggedValue tag="ea_stype" value="Public"/>
+						<UML:TaggedValue tag="tpos" value="0"/>
+					</UML:ModelElement.taggedValue>
+					<UML:Namespace.ownedElement>
+						<UML:Collaboration xmi.id="EAID_A6AEEF28_5309_41bc_8024_9634FFD7CC7E_Collaboration" name="Collaborations">
+							<UML:Namespace.ownedElement>
+								<UML:ClassifierRole name="ISO 19157:2013 Data Quality -XML" xmi.id="EAID_04AC81EF_CE63_494d_A0F1_BA46C7800BC6" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="import with strip GUIDS"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_A6AEEF28_5309_41bc_8024_9634FFD7CC7E"/>
+										<UML:TaggedValue tag="date_created" value="2011-04-15 10:25:45"/>
+										<UML:TaggedValue tag="date_modified" value="2011-04-15 10:25:45"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_04AC81EF_CE63_494d_A0F1_BA46C7800BC6"/>
+										<UML:TaggedValue tag="package_name" value="implementation-XML"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Johan Esko"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="11"/>
+										<UML:TaggedValue tag="ea_localid" value="9"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="ISO 19103:2005 Schema Language XML" xmi.id="EAID_31591D82_13F0_4687_BC11_BEDFBCEB9772" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="import from Harmonized model with strip GUIDS 2014-07-10"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0."/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_A6AEEF28_5309_41bc_8024_9634FFD7CC7E"/>
+										<UML:TaggedValue tag="date_created" value="2008-04-17 08:46:36"/>
+										<UML:TaggedValue tag="date_modified" value="2008-04-17 08:46:36"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_31591D82_13F0_4687_BC11_BEDFBCEB9772"/>
+										<UML:TaggedValue tag="package_name" value="implementation-XML"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="tpos" value="1"/>
+										<UML:TaggedValue tag="ea_localid" value="11"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="ISO 19111 - All" xmi.id="EAID_5863D4AA_202C_4ac1_B891_64E4090279A7" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_A6AEEF28_5309_41bc_8024_9634FFD7CC7E"/>
+										<UML:TaggedValue tag="date_created" value="2012-12-10 10:52:46"/>
+										<UML:TaggedValue tag="date_modified" value="2012-12-10 10:52:46"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_5863D4AA_202C_4ac1_B891_64E4090279A7"/>
+										<UML:TaggedValue tag="package_name" value="implementation-XML"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="John Herring"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="5"/>
+										<UML:TaggedValue tag="ea_localid" value="7"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="ISO 19107:2003 Spatial Schema XML" xmi.id="EAID_80ACE3B9_6C98_473e_BDCE_09BE8F8223CA" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="This package contains the normative (Geometry and Topology) parts of the model for ISO 19107. This document should be referred to as the official description of the Model. If there are any differences, then ISO 19107 takes precedence. &#xA;&#xA;This packages also contains example (informative) of applications of 19107.&#xA;&#xA;imported with strip GUIDS 2014-07-10"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_A6AEEF28_5309_41bc_8024_9634FFD7CC7E"/>
+										<UML:TaggedValue tag="date_created" value="2008-04-17 08:47:38"/>
+										<UML:TaggedValue tag="date_modified" value="2008-04-17 08:47:38"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_80ACE3B9_6C98_473e_BDCE_09BE8F8223CA"/>
+										<UML:TaggedValue tag="package_name" value="implementation-XML"/>
+										<UML:TaggedValue tag="author" value="ISO TC211"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="2"/>
+										<UML:TaggedValue tag="ea_localid" value="4"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="ISO 19135:2005 Procedures for Registration XML" xmi.id="EAID_9AA0709C_8FD1_48d2_A752_1F2153405F41" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="import with Strip GUIDS 2014-07-10"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_A6AEEF28_5309_41bc_8024_9634FFD7CC7E"/>
+										<UML:TaggedValue tag="date_created" value="2008-04-17 08:59:19"/>
+										<UML:TaggedValue tag="date_modified" value="2008-04-17 08:59:19"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_9AA0709C_8FD1_48d2_A752_1F2153405F41"/>
+										<UML:TaggedValue tag="package_name" value="implementation-XML"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="tpos" value="9"/>
+										<UML:TaggedValue tag="ea_localid" value="8"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="ISO 19108:2006 Temporal Schema XML" xmi.id="EAID_DC4C0B6C_7823_4b9a_853D_4FE52959B21F" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="import from harmonized model with strip GUIDS 2014-07-10"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_A6AEEF28_5309_41bc_8024_9634FFD7CC7E"/>
+										<UML:TaggedValue tag="date_created" value="2008-04-17 08:48:41"/>
+										<UML:TaggedValue tag="date_modified" value="2008-04-17 08:48:41"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_DC4C0B6C_7823_4b9a_853D_4FE52959B21F"/>
+										<UML:TaggedValue tag="package_name" value="implementation-XML"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="tpos" value="3"/>
+										<UML:TaggedValue tag="ea_localid" value="5"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="ISO/CD 19110 Rev1 Feature Catalogue XML" xmi.id="EAID_E7C241EF_3780_4e6f_8552_9218DEB32B2A" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="import from drafts with STrip GUIDS 2014-07-10"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_A6AEEF28_5309_41bc_8024_9634FFD7CC7E"/>
+										<UML:TaggedValue tag="date_created" value="2008-04-17 08:53:38"/>
+										<UML:TaggedValue tag="date_modified" value="2014-07-15 17:23:38"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_E7C241EF_3780_4e6f_8552_9218DEB32B2A"/>
+										<UML:TaggedValue tag="package_name" value="implementation-XML"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="tpos" value="4"/>
+										<UML:TaggedValue tag="ea_localid" value="6"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+							</UML:Namespace.ownedElement>
+							<UML:Collaboration.interaction>
+								<UML:Interaction>
+									<UML:Interaction.message/>
+								</UML:Interaction>
+							</UML:Collaboration.interaction>
+						</UML:Collaboration>
+						<UML:Package name="ISO 19103:2005 Schema Language XML" xmi.id="EAPK_31591D82_13F0_4687_BC11_BEDFBCEB9772" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="import from Harmonized model with strip GUIDS 2014-07-10"/>
+								<UML:TaggedValue tag="parent" value="EAPK_A6AEEF28_5309_41bc_8024_9634FFD7CC7E"/>
+								<UML:TaggedValue tag="created" value="2008-04-17 08:46:36"/>
+								<UML:TaggedValue tag="modified" value="2008-04-17 08:46:36"/>
+								<UML:TaggedValue tag="iscontrolled" value="TRUE"/>
+								<UML:TaggedValue tag="xmlpath" value="model\ISO-19103-2005-XML_2.xml"/>
+								<UML:TaggedValue tag="lastloaddate" value="2014-07-16 09:57:56"/>
+								<UML:TaggedValue tag="lastsavedate" value="2008-04-17 08:46:36"/>
+								<UML:TaggedValue tag="version" value="1.0."/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="owner" value="ISO TC211"/>
+								<UML:TaggedValue tag="xmiver" value="Enterprise Architect XMI/UML 1.3"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="1"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="packageFlags" value="Recurse=0;VCCFG=implementation-XML;"/>
+								<UML:TaggedValue tag="savedasstub" value="true"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Package>
+						<UML:Package name="ISO 19107:2003 Spatial Schema XML" xmi.id="EAPK_80ACE3B9_6C98_473e_BDCE_09BE8F8223CA" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="This package contains the normative (Geometry and Topology) parts of the model for ISO 19107. This document should be referred to as the official description of the Model. If there are any differences, then ISO 19107 takes precedence. &#xA;&#xA;This packages also contains example (informative) of applications of 19107.&#xA;&#xA;imported with strip GUIDS 2014-07-10"/>
+								<UML:TaggedValue tag="parent" value="EAPK_A6AEEF28_5309_41bc_8024_9634FFD7CC7E"/>
+								<UML:TaggedValue tag="created" value="2008-04-17 08:47:38"/>
+								<UML:TaggedValue tag="modified" value="2008-04-17 08:47:38"/>
+								<UML:TaggedValue tag="iscontrolled" value="TRUE"/>
+								<UML:TaggedValue tag="xmlpath" value="isotc211\Drafts\trunk\implementation-XML\model\ISO-19107-2003-XML.xml"/>
+								<UML:TaggedValue tag="lastloaddate" value="2014-07-16 14:51:18"/>
+								<UML:TaggedValue tag="lastsavedate" value="2008-04-17 08:47:38"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="xmiver" value="Enterprise Architect XMI/UML 1.3"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="2"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="packageFlags" value="Recurse=0;VCCFG=isotc211;"/>
+								<UML:TaggedValue tag="savedasstub" value="true"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="ISO TC211"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Package>
+						<UML:Package name="ISO 19108:2006 Temporal Schema XML" xmi.id="EAPK_DC4C0B6C_7823_4b9a_853D_4FE52959B21F" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="import from harmonized model with strip GUIDS 2014-07-10"/>
+								<UML:TaggedValue tag="parent" value="EAPK_A6AEEF28_5309_41bc_8024_9634FFD7CC7E"/>
+								<UML:TaggedValue tag="created" value="2008-04-17 08:48:41"/>
+								<UML:TaggedValue tag="modified" value="2008-04-17 08:48:41"/>
+								<UML:TaggedValue tag="iscontrolled" value="TRUE"/>
+								<UML:TaggedValue tag="xmlpath" value="isotc211\Drafts\trunk\implementation-XML\model\ISO-19108-2006-XML.xml"/>
+								<UML:TaggedValue tag="lastloaddate" value="2014-07-16 14:56:08"/>
+								<UML:TaggedValue tag="lastsavedate" value="2008-04-17 08:48:41"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="xmiver" value="Enterprise Architect XMI/UML 1.3"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="3"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="packageFlags" value="Recurse=0;VCCFG=isotc211;"/>
+								<UML:TaggedValue tag="savedasstub" value="true"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Package>
+						<UML:Package name="ISO/CD 19110 Rev1 Feature Catalogue XML" xmi.id="EAPK_E7C241EF_3780_4e6f_8552_9218DEB32B2A" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="import from drafts with STrip GUIDS 2014-07-10"/>
+								<UML:TaggedValue tag="parent" value="EAPK_A6AEEF28_5309_41bc_8024_9634FFD7CC7E"/>
+								<UML:TaggedValue tag="created" value="2008-04-17 08:53:38"/>
+								<UML:TaggedValue tag="modified" value="2014-07-15 17:23:38"/>
+								<UML:TaggedValue tag="iscontrolled" value="TRUE"/>
+								<UML:TaggedValue tag="xmlpath" value="isotc211\Drafts\trunk\implementation-XML\model\ISOCD-19110-Rev1-XML.xml"/>
+								<UML:TaggedValue tag="lastloaddate" value="2014-07-16 14:57:16"/>
+								<UML:TaggedValue tag="lastsavedate" value="2008-04-17 08:53:38"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="xmiver" value="Enterprise Architect XMI/UML 1.3"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="4"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="packageFlags" value="Recurse=0;VCCFG=isotc211;"/>
+								<UML:TaggedValue tag="savedasstub" value="true"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Package>
+						<UML:Package name="ISO 19111 - All" xmi.id="EAPK_5863D4AA_202C_4ac1_B891_64E4090279A7" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="parent" value="EAPK_A6AEEF28_5309_41bc_8024_9634FFD7CC7E"/>
+								<UML:TaggedValue tag="created" value="2012-12-10 10:52:46"/>
+								<UML:TaggedValue tag="modified" value="2012-12-10 10:52:46"/>
+								<UML:TaggedValue tag="iscontrolled" value="TRUE"/>
+								<UML:TaggedValue tag="xmlpath" value="isotc211\Drafts\trunk\implementation-XML\model\ISO-19111-2009-XML.xml"/>
+								<UML:TaggedValue tag="lastloaddate" value="2014-07-16 15:16:17"/>
+								<UML:TaggedValue tag="lastsavedate" value="2013-03-08 15:54:23"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="xmiver" value="Enterprise Architect XMI/UML 1.3"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="5"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="packageFlags" value="Recurse=0;VCCFG=isotc211;"/>
+								<UML:TaggedValue tag="savedasstub" value="true"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="John Herring"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Package>
+						<UML:Package name="ISO 19135:2005 Procedures for Registration XML" xmi.id="EAPK_9AA0709C_8FD1_48d2_A752_1F2153405F41" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="import with Strip GUIDS 2014-07-10"/>
+								<UML:TaggedValue tag="parent" value="EAPK_A6AEEF28_5309_41bc_8024_9634FFD7CC7E"/>
+								<UML:TaggedValue tag="created" value="2008-04-17 08:59:19"/>
+								<UML:TaggedValue tag="modified" value="2008-04-17 08:59:19"/>
+								<UML:TaggedValue tag="iscontrolled" value="TRUE"/>
+								<UML:TaggedValue tag="xmlpath" value="isotc211\Drafts\trunk\implementation-XML\model\ISO-19135-2005-XML.xml"/>
+								<UML:TaggedValue tag="lastloaddate" value="2014-07-16 15:22:48"/>
+								<UML:TaggedValue tag="lastsavedate" value="2008-04-17 08:59:19"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="xmiver" value="Enterprise Architect XMI/UML 1.3"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="9"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="packageFlags" value="Recurse=0;VCCFG=isotc211;"/>
+								<UML:TaggedValue tag="savedasstub" value="true"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Package>
+						<UML:Package name="ISO 19157:2013 Data Quality -XML" xmi.id="EAPK_04AC81EF_CE63_494d_A0F1_BA46C7800BC6" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="import with strip GUIDS"/>
+								<UML:TaggedValue tag="parent" value="EAPK_A6AEEF28_5309_41bc_8024_9634FFD7CC7E"/>
+								<UML:TaggedValue tag="created" value="2011-04-15 10:25:45"/>
+								<UML:TaggedValue tag="modified" value="2011-04-15 10:25:45"/>
+								<UML:TaggedValue tag="iscontrolled" value="TRUE"/>
+								<UML:TaggedValue tag="xmlpath" value="isotc211\Drafts\trunk\implementation-XML\model\ISO-19157-2013-XML.xml"/>
+								<UML:TaggedValue tag="lastloaddate" value="2014-07-16 15:23:54"/>
+								<UML:TaggedValue tag="lastsavedate" value="2011-04-18 12:51:54"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="xmiver" value="Enterprise Architect XMI/UML 1.3"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="11"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="packageFlags" value="Recurse=0;VCCFG=isotc211;"/>
+								<UML:TaggedValue tag="savedasstub" value="true"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="Johan Esko"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Package>
+						<UML:Dependency client="EAPK_9A048FF7_4C59_44aa_BABE_1B180DE058AF" supplier="EAPK_31591D82_13F0_4687_BC11_BEDFBCEB9772" xmi.id="EAID_8EB4947D_8170_4518_9BA4_5BC1F563FF7E" visibility="public">
+							<UML:ModelElement.stereotype>
+								<UML:Stereotype name="import"/>
+							</UML:ModelElement.stereotype>
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Created by HollowWorld Plugin"/>
+								<UML:TaggedValue tag="style" value="3"/>
+								<UML:TaggedValue tag="ea_type" value="Dependency"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
+								<UML:TaggedValue tag="linecolor" value="-1"/>
+								<UML:TaggedValue tag="linewidth" value="0"/>
+								<UML:TaggedValue tag="seqno" value="0"/>
+								<UML:TaggedValue tag="stereotype" value="import"/>
+								<UML:TaggedValue tag="headStyle" value="0"/>
+								<UML:TaggedValue tag="lineStyle" value="0"/>
+								<UML:TaggedValue tag="conditional" value=" &#xA;«import»"/>
+								<UML:TaggedValue tag="ea_localid" value="9963"/>
+								<UML:TaggedValue tag="ea_sourceName" value="Procedures for registration"/>
+								<UML:TaggedValue tag="ea_targetName" value="ISO 19103:2005 Schema Language XML"/>
+								<UML:TaggedValue tag="ea_sourceType" value="Package"/>
+								<UML:TaggedValue tag="ea_targetType" value="Package"/>
+								<UML:TaggedValue tag="ea_sourceID" value="8250"/>
+								<UML:TaggedValue tag="ea_targetID" value="8937"/>
+								<UML:TaggedValue tag="src_visibility" value="Public"/>
+								<UML:TaggedValue tag="src_aggregation" value="0"/>
+								<UML:TaggedValue tag="src_isOrdered" value="false"/>
+								<UML:TaggedValue tag="src_isNavigable" value="false"/>
+								<UML:TaggedValue tag="src_style" value="Owned=0;Navigable=Non-Navigable;"/>
+								<UML:TaggedValue tag="dst_visibility" value="Public"/>
+								<UML:TaggedValue tag="dst_aggregation" value="0"/>
+								<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+								<UML:TaggedValue tag="dst_isNavigable" value="false"/>
+								<UML:TaggedValue tag="dst_style" value="Owned=0;Navigable=Navigable;"/>
+								<UML:TaggedValue tag="virtualInheritance" value="0"/>
+								<UML:TaggedValue tag="mb" value=" &#xA;«import»"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Dependency>
+					</UML:Namespace.ownedElement>
+				</UML:Package>
+			</UML:Namespace.ownedElement>
+		</UML:Model>
+		<UML:TaggedValue tag="isApplicationSchema" xmi.id="EAID_44F7871D_1E35_4f02_8310_97E2131720AC" value="true" modelElement="EAID_31591D82_13F0_4687_BC11_BEDFBCEB9772"/>
+		<UML:TaggedValue tag="isApplicationSchema" xmi.id="EAID_C874FA08_2676_48fa_AEEC_DBC7EA2ADB33" value="true" modelElement="EAID_80ACE3B9_6C98_473e_BDCE_09BE8F8223CA"/>
+	</XMI.content>
+	<XMI.difference/>
+	<XMI.extensions xmi.extender="Enterprise Architect 2.5"/>
+</XMI>
